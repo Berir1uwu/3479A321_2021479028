@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "lab_dos",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/pages/main.dart"  // Actualiza la ruta aquí
+        },
+        {
+            "name": "lab_dos (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/pages/main.dart"  // Actualiza la ruta aquí
+        },
+        {
+            "name": "lab_dos (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/pages/main.dart"  // Actualiza la ruta aquí
+        }
+    ]
+}
